@@ -10,9 +10,9 @@ Key features:
 Numerical columns: Atmospheric density, Surface temperature, Gravity, Water content, Mineral abundance, Orbital period, Proximity to star, Atmospheric composition index, etc.
 Categorical columns: Magnetic field strength and Radiation levels (converted into numerical form by parsing category names).
 Sequential proceedings followed by the team in creating the model are as follows:
-
 STEP1:EDA and Preprocessing 
-a) We began by checking for class imbalance through .value_counts() function.We noticed moderate class imbalance between the various classes present with the least occurring class(5.0) having 5132 samples and highest occurring class(1.0) having 6393 samples.
+
+]a) We began by checking for class imbalance through .value_counts() function.We noticed moderate class imbalance between the various classes present with the least occurring class(5.0) having 5132 samples and highest occurring class(1.0) having 6393 samples.
 
 b) Before handling the class imbalance issues,we further checked for outliers through boxplots of the columns.We found outliers in numerous columns like 'Gravity','Surface Temperature' etc.
 
